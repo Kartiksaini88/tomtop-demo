@@ -1,0 +1,29 @@
+.top_brand_div_main{
+    display: grid;
+    grid-template-columns: repeat(11 , 1fr);
+    width: 85%;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+
+}
+
+.top_brand_img{
+
+    max-height: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+    padding-top: 7px;
+    
+
+}
+
+.top_brand_img_div{
+    border: 1px solid rgb(227, 215, 215);
+    height: 60%;
+    max-width: 100%;
+    margin: 10px;
+ 
+    
+}

@@ -1,0 +1,89 @@
+.flash_main_div{
+
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.back_url{
+ 
+    background: url("https://static.tomtop.com/tomtop/img/flashdeals_category_h.jpg?20201111")  center no-repeat;
+    background-size: 100%;
+}
+.back_urlblue{
+ 
+    background: url("https://static.tomtop.com/tomtop/img/flashdeals_category2_h.jpg?20201111")  center no-repeat;
+    background-size: 100%;
+}
+
+.every_smalldiv{
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.orange{
+    width: 150px;
+    border: none;
+    height: 39px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+
+
+.round_img{
+    border-radius: 50%;
+    margin-left: 220px;
+    width: 127px;
+    padding-top: 20px;
+    
+}
+
+.r_title{
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    padding: 10px 0;
+    background: rgba(255,255,255,.5);
+    font-size: 16px;
+    text-align: center;
+    color: #333;
+    font-weight: 700;
+    border-radius: 22px;
+    margin-left: 300px;
+}
+
+.grid_three{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.three_img{
+    width: 174px;
+}
+
+.three_p{
+    white-space: normal;
+    word-wrap: break-word;
+    color: #333;
+    font-size: 13px;
+    line-height: 14px;
+    height: 28px;
+}
+.three_price{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    color: brown;
+    font-size: 15px;
+}
+.strike_three{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    text-decoration: line-through;
+    color: gray;
+}

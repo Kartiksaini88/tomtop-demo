@@ -1,0 +1,65 @@
+
+
+
+.banner_img{
+    width: 100%;
+
+}
+
+.inside_flex_div{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    width: 350px;
+
+}
+
+.product_img_coupon{
+    width: 100px;
+    height: 100px;
+}
+.product_price{
+    display: block;
+    font-size: 26px;
+    font-weight: 600;
+    color: #f60;
+    margin-bottom: 12px;
+    line-height: 1;
+}
+
+.product_des{
+    height: 30px;
+    line-height: 14px;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(142, 142, 142);
+}
+.grid_product_div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+}
+
+.coupon_main_div{
+    width: 70%;
+    margin: auto;
+}
+
+.btn_div{
+  
+    padding-top: 35px;
+    padding-right: 10px;
+    
+    
+}
+
+
+
+.add_to_cart{
+    background-color: #f60;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
